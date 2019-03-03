@@ -1,0 +1,68 @@
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navBar, .footerBar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(210, 61, 16);
+    border: 3px solid black;
+    color: white;
+    padding: 15px;
+    align-items: center;
+
+}
+
+a:hover{
+    background-color: rgba(255, 255, 255, 0.605);
+}
+
+
+.navItems {
+    display: flex;
+}
+
+.navItem {
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    display: flex;
+    padding: 10px;
+}
+
+p {
+    margin: 30px;
+}
+
+.image {
+    width: 220px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+.imageLabel {
+    font-size: 18px;
+}
+
+.sidebar {
+    text-align: center;
+    padding: 10px;
+}
+
+body {
+    font-size: 22px;
+}
+
+.logo {
+    font-size: 32px;
+}
